@@ -1,9 +1,20 @@
-/**
- * @format
- */
+import { AppRegistry } from 'react-native';
+import { createAppContainer } from '@react-navigation/native';
+import { createStackNavigator } from 'react-navigation-stack';
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
+import { name as appName } from './app.json';
+import { HomeScreen } from './screens';
 
+const AppNavigator = createStackNavigator(
+  {
+    Home: {
+      screen: HomeScreen,
+    },
+  },
+  {
+    initialRouteName: 'Home',
+  },
+);
+
+const App = createAppContainer(AppNavigator);
 AppRegistry.registerComponent(appName, () => App);

@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* PyeonsickAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PyeonsickAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -20,6 +19,15 @@
 		B08BB234DB57BF7047CA9111 /* libPods-PyeonsickApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2641517D05E84812F6B1381A /* libPods-PyeonsickApp-tvOS.a */; };
 		CA25E4CD25B4546F6B005AD2 /* libPods-PyeonsickApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2FECD96123B5729BF3736B /* libPods-PyeonsickApp.a */; };
 		E8E5905934166E4699B786DA /* libPods-PyeonsickApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F479AA3FFD2710FE31154A8 /* libPods-PyeonsickApp-tvOSTests.a */; };
+		6A5DA19721CE475C82998F8F /* NanumGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5C57D12B8547E58C38E31A /* NanumGothic-Bold.ttf */; };
+		ECFD97358AAA41E783EF0034 /* NanumGothic-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97E532C6834B48D28CE68BAD /* NanumGothic-ExtraBold.ttf */; };
+		38B788263CBE42198EAF67A8 /* NanumGothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71A9F6A560754C618CF953EC /* NanumGothic-Regular.ttf */; };
+		7799A68E88CE4CFC9FD51D34 /* NanumGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F02B95EA9C14C62BDEF125D /* NanumGothicBold.ttf */; };
+		C76DB29101B84BD4ABFA5ABE /* NanumGothicExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CC426EC81E4182B8FCF1BF /* NanumGothicExtraBold.ttf */; };
+		181122C46FD9470E801E00F1 /* NanumGothicRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 973F433683634052BFF12171 /* NanumGothicRegular.ttf */; };
+		E9CDAA00C86241CC9CA62F5C /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = B6D2D33BCFD74C8BAA412F35 /* NotoSansKR-Black.otf */; };
+		5A3FC6DF8852409395F917A7 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE3C15E2A98A4916AC52622D /* NotoSansKR-Bold.otf */; };
+		2624A46FC797469493AC9B4D /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70E939D3E27A4AAE998A9149 /* NotoSansKR-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +75,15 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F680B70628020384C4020DC1 /* Pods-PyeonsickApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyeonsickApp.release.xcconfig"; path = "Target Support Files/Pods-PyeonsickApp/Pods-PyeonsickApp.release.xcconfig"; sourceTree = "<group>"; };
+		7C5C57D12B8547E58C38E31A /* NanumGothic-Bold.ttf */ = {isa = PBXFileReference; name = "NanumGothic-Bold.ttf"; path = "../assets/fonts/NanumGothic-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97E532C6834B48D28CE68BAD /* NanumGothic-ExtraBold.ttf */ = {isa = PBXFileReference; name = "NanumGothic-ExtraBold.ttf"; path = "../assets/fonts/NanumGothic-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		71A9F6A560754C618CF953EC /* NanumGothic-Regular.ttf */ = {isa = PBXFileReference; name = "NanumGothic-Regular.ttf"; path = "../assets/fonts/NanumGothic-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F02B95EA9C14C62BDEF125D /* NanumGothicBold.ttf */ = {isa = PBXFileReference; name = "NanumGothicBold.ttf"; path = "../assets/fonts/NanumGothicBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D7CC426EC81E4182B8FCF1BF /* NanumGothicExtraBold.ttf */ = {isa = PBXFileReference; name = "NanumGothicExtraBold.ttf"; path = "../assets/fonts/NanumGothicExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		973F433683634052BFF12171 /* NanumGothicRegular.ttf */ = {isa = PBXFileReference; name = "NanumGothicRegular.ttf"; path = "../assets/fonts/NanumGothicRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B6D2D33BCFD74C8BAA412F35 /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; name = "NotoSansKR-Black.otf"; path = "../assets/fonts/NotoSansKR-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DE3C15E2A98A4916AC52622D /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; name = "NotoSansKR-Bold.otf"; path = "../assets/fonts/NotoSansKR-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70E939D3E27A4AAE998A9149 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; name = "NotoSansKR-Regular.otf"; path = "../assets/fonts/NotoSansKR-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +182,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C252A3032EC6082FF15F3F85 /* Pods */,
+				414AFADD99234F1599120BED /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +215,23 @@
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		414AFADD99234F1599120BED /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				7C5C57D12B8547E58C38E31A /* NanumGothic-Bold.ttf */,
+				97E532C6834B48D28CE68BAD /* NanumGothic-ExtraBold.ttf */,
+				71A9F6A560754C618CF953EC /* NanumGothic-Regular.ttf */,
+				8F02B95EA9C14C62BDEF125D /* NanumGothicBold.ttf */,
+				D7CC426EC81E4182B8FCF1BF /* NanumGothicExtraBold.ttf */,
+				973F433683634052BFF12171 /* NanumGothicRegular.ttf */,
+				B6D2D33BCFD74C8BAA412F35 /* NotoSansKR-Black.otf */,
+				DE3C15E2A98A4916AC52622D /* NotoSansKR-Bold.otf */,
+				70E939D3E27A4AAE998A9149 /* NotoSansKR-Regular.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -285,7 +320,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -338,6 +373,15 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				6A5DA19721CE475C82998F8F /* NanumGothic-Bold.ttf in Resources */,
+				ECFD97358AAA41E783EF0034 /* NanumGothic-ExtraBold.ttf in Resources */,
+				38B788263CBE42198EAF67A8 /* NanumGothic-Regular.ttf in Resources */,
+				7799A68E88CE4CFC9FD51D34 /* NanumGothicBold.ttf in Resources */,
+				C76DB29101B84BD4ABFA5ABE /* NanumGothicExtraBold.ttf in Resources */,
+				181122C46FD9470E801E00F1 /* NanumGothicRegular.ttf in Resources */,
+				E9CDAA00C86241CC9CA62F5C /* NotoSansKR-Black.otf in Resources */,
+				5A3FC6DF8852409395F917A7 /* NotoSansKR-Bold.otf in Resources */,
+				2624A46FC797469493AC9B4D /* NotoSansKR-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
